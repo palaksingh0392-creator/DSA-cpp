@@ -5,7 +5,7 @@ int a,b,c;
 public:
 void read();
 void sum();
-void diaplay();
+void display();
 };
 
 void add::read(){
@@ -16,14 +16,14 @@ void add::sum(){
 c= a+b;
 }
 
-void add::diaplay(){
-    cout<<"value of a:"<<a;
-    cout<<"value of b:"<<b;
-    cout<<"the addition of a and b is:"<<c;
+void add::display(){
+    cout<<"\nvalue of a:"<<a;
+    cout<<"\nvalue of b:"<<b;
+    cout<<"\nthe addition of a and b is:"<<c;
 }
 
 int main(){
-    add.obj1;
+    add obj1;
     obj1.read();
     obj1.sum();
     obj1.display();
